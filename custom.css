@@ -1,0 +1,1024 @@
+
+.sc-fx-element {display:none;}
+
+
+/* =============== CUSTOM CSS =============== */
+/* =============== GENERAL =============== */
+body {
+	 background: url(../../../images/fespa/background.gif) top left repeat !important ;
+}
+
+a {
+  color: #d6463f;
+ }
+
+h1, h2, h3 {
+line-height: 1.4em;
+}
+
+body.jsn-homepage {
+	 background: none !important;
+}
+
+.jsn-homepage #jsn-content-top, .jsn-homepage #jsn-content {
+	 background: url(../../../images/fespa/background.gif) top left repeat !important ;
+}
+
+.jsn-homepage #jsn-content {
+	margin: 0;
+}
+
+#jsn-content {
+	position: relative;
+	z-index: 86;
+}
+#jsn-header div.display-dropdown.jsn-modulecontainer.login-menu .jsn-modulecontent {
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	border: none;
+}
+#jsn-header div.display-inline.jsn-modulecontainer  form#jsn_com_search_form input#mod-search-searchword {
+	width: 120px;
+	border: none;
+	background: rgba(255,255,255,0.8);
+	transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+}
+#jsn-header div.display-inline.jsn-modulecontainer form#jsn_com_search_form input#mod-search-searchword:focus {
+	background: #fff;
+	outline: none;
+	width: 200px;
+}
+#jsn-menu .jsn-modulecontainer .jsn-modulecontent form#jsn_com_search_form {
+	margin: 0 45px 0 0;
+}
+body.jsn-direction-rtl #jsn-menu .jsn-modulecontainer .jsn-modulecontent form#jsn_com_search_form {
+	margin: 0 0 0 45px;
+}
+/* GENERAL LAYOUT */
+.jsn-fespa-images.jsn-modulecontainer {
+	display: none;
+}
+.jsn-fespa-page #jsn-header-top {
+  	position: relative;
+  	z-index: 1000;
+}
+/*#jsn-header-top {
+    border-top: #fb1d1e 5px solid;
+}*/
+.jsn-fespa-page #jsn-header-bottom {
+  	position: absolute;
+  	z-index: 900;
+}
+
+#jsn-header-bottom {
+  	background-color: transparent; 
+	border-top: #006e42 10px solid;/*nm*/
+}
+#jsn-header-bottom-border { 
+/* background: transparent url(../../../images/fespa/diamond-pattern-top.png) repeat-x top left; */
+position: relative;
+z-index: 500;
+height: 58px;
+}
+
+@media only screen and (max-width: 960px) {
+	#jsn-header-bottom-border { 
+	/* background: transparent url(../../../images/fespa/diamond-pattern-top-small.png) repeat-x top left;*/
+	position: relative;
+	z-index: 500;
+	height: 29px;
+	}
+}
+
+
+#jsn-header-bottom #jsn-header-bottom-inner {
+  	background-color: #fff; /*nm*/
+}
+.jsn-fespa-page #jsn-header-bottom.jsn-menu-sticky {
+  	position: fixed;
+}
+.jsn-fespa-page .jsn-menu-placeholder {
+  	display: none;
+}
+.jsn-color-cyan #jsn-header-top {
+  	background-color: #17492c;
+}
+.jsn-color-blue #jsn-header-top {
+  	background-color: rgba(7,128,179,0.8);
+}
+.jsn-color-red #jsn-header-top {
+  	background-color: rgba(230,85,56,0.8);
+}
+.jsn-color-purple #jsn-header-top {
+  	background-color: rgba(177,119,179,0.8);
+}
+.jsn-color-pink #jsn-header-top {
+  	background-color: rgba(234,118,140,0.8);
+}
+.jsn-color-grey #jsn-header-top {
+  	background-color: rgba(107,113,120,0.8);
+}
+
+/* PROMO TOP IMAGESHOW */
+.jsn-fespa-page .jsn-modulecontainer.promo-top {
+  	margin-top: -40px;
+  	max-height: 850px;
+  	width: 100%;
+  	position: relative;
+  	overflow: hidden;
+}
+.jsn-fespa-page .jsn-modulecontainer.promo-top:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.jsn-fespa-page .box_skitter .info_slide_dots {
+	top: 800px !important;
+	padding: 20px;
+	background: transparent !important;
+	opacity: 1;
+	z-index: 800;
+}
+.jsn-fespa-page .box_skitter .info_slide_dots .image_number {
+	width: 10px !important;
+	height: 10px !important;
+	margin: 0 15px 0 0;
+	background-color: rgba(150,150,150,0.8) !important;
+}
+.jsn-fespa-page .box_skitter .info_slide_dots .image_number:last-child {
+	margin: 0;
+}
+.jsn-fespa-page .box_skitter .info_slide_dots .image_number:hover {
+	background-color: #fff !important;
+}
+.jsn-fespa-page .box_skitter .info_slide_dots .image_number_select {
+	background-color: #955959 !important;
+}
+.jsn-fespa-page .box_skitter .info_slide_dots .image_number:hover,
+.jsn-fespa-page .box_skitter .info_slide_dots .image_number_select {
+	transform: scale(1.4,1.4);
+	-moz-transform: scale(1.4,1.4);
+	-webkit-transform: scale(1.4,1.4);
+}
+
+#jsn-pos-promo-over {
+	position: relative;
+	margin-top: 180px;
+}
+div.jsn-modulecontainer.promo-intro {
+	position: absolute;
+	z-index: 100;
+	top: 240px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+body.jsn-desktop-on-mobile div.jsn-modulecontainer.promo-intro {
+	top: 100px;
+}
+#mexico-promo-intro {
+	max-width: 100%;
+	width: 1000px;
+	margin: 0 auto;
+}
+#mexico-promo-intro h2.promo-intro-heading {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 5em;
+}
+body.jsn-desktop-on-mobile #mexico-promo-intro h2.promo-intro-heading {
+	font-size: 3em;
+}
+body.jsn-textstyle-personal #mexico-promo-intro h2.promo-intro-heading {
+	font-size: 2em;
+}
+#mexico-promo-intro .desc {
+	width: 500px;
+	max-width: 100%;
+	margin: 0 0 50px;
+	display: inline-block;
+	font-size: 1.5em;
+}
+body.jsn-desktop-on-mobile #mexico-promo-intro .desc {
+	margin-bottom: 30px;
+	font-size: 1em;
+}
+/* PROMO INTRO */
+#jsn-promo-topborder { 
+	height: 58px; 
+/* background : transparent url(../../../images/fespa/diamond-pattern-bottom.png) repeat-x top left; */
+   	position: relative;
+    z-index: 400;
+    margin-top: -55px;
+}
+
+@media only screen and (max-width: 960px) {
+	#jsn-promo-topborder { 
+		height:29px; 
+	/*	background : transparent url(../../../images/fespa/diamond-pattern-bottom-small.png) repeat-x top left; */
+	    margin-top: -15px;
+	}
+}
+
+
+#jsn-promo {
+   
+}
+#promo-intro {
+  padding: 0 90px 145px;
+}
+
+#promo-intro #registernow-button {
+	text-align: center;
+}
+
+#promo-intro a#supported-by-fespa {
+ background: url(../../../images/fespa/suppored-by-fespa-logo.png) no-repeat;
+ width: 236px;
+ height: 90px;
+ float: right;
+ margin: 5px 0 5px 10px;
+}
+
+#promo-intro h1.promo-intro-mainheading {
+  color: #ee3424;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+#promo-intro .promo-intro-desc {
+  /*max-width: 650px;*/
+  margin: 25px 0;
+  font-family: 'Lato', "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.7em;
+}
+#promo-intro .promo-intro-desc a.see-all-events {
+  font-size: 1.2em;
+  margin: 0 5px;
+  padding: 0 0 5px;
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+#promo-intro .promo-intro-desc a.see-all-events:hover,
+#promo-intro .promo-intro-desc a.see-all-events:active {
+  background: #111;
+  border: none;
+}
+/* CONTENT TOP AREA */
+#jsn-pos-content-top {
+    background: transparent;
+}
+div.jsn-modulecontainer.event-categories {
+  	margin-top: -230px !important;
+}
+div.event-categories #mexico-event-cat .cat {
+  	text-align: center;
+}
+
+div.event-categories #mexico-event-cat .cat a {
+	color: #fff;
+}
+div.event-categories #mexico-event-cat .cat h3 {
+  	font-size: 2.5em;
+  	text-transform: uppercase;
+}
+div.event-categories #mexico-event-cat .cat .desc {
+	max-width: 150px;
+	margin: 0 auto;
+	display: inline-block;
+}
+div.event-categories #mexico-event-cat .cat-img a {
+  	-webkit-filter: saturate(90%);
+  	border-radius: 100%;
+  	-moz-border-radius: 100%;
+  	-webkit-border-radius: 100%;
+  	transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	-webkit-transition: all 0.3s ease-in-out;
+  	display:inline-block;
+  	width: 249px;
+  	height: 249px;
+}
+@media only screen and (max-width: 960px) {
+	div.event-categories #mexico-event-cat .cat-img a {
+	  	width: 170px !important;
+	  	height: 170px !important;
+	  	background-size: 170px 170px !important;
+	}
+	div.event-categories #mexico-event-cat .cat h3 { font-size: 1.5em;}
+}
+div.event-categories #mexico-event-cat .cat:hover .cat-img a {
+  	-webkit-filter: saturate(130%);
+}
+
+div.event-categories #mexico-event-cat .cat-img a.programme {
+	background: url(../../../images/fespa/promo-buttons/programme.png) no-repeat;
+
+}
+
+div.event-categories #mexico-event-cat .cat-img a.about {
+	background: url(../../../images/fespa/promo-buttons/about.png) no-repeat;	
+}
+
+div.event-categories #mexico-event-cat .cat-img a.speakers {
+	background: url(../../../images/fespa/promo-buttons/speakers.png) no-repeat;	
+}
+
+
+/* CONTACT FORM */
+.form-validate .control-group .control-label { display: none;}
+
+
+/* CONTENT BOTTOM AREA */
+#jsn-content-bottom-below {
+	background-color: #fff;
+	margin-top: 30px;
+}
+#mexico-main-sponsors {
+	margin: 0 auto;
+	position: relative;
+	z-index: 90;
+	max-width: 100%;
+	text-align: center;
+}
+#mexico-main-sponsors h3.main-heading {
+	color: #fff;
+	font-size: 3em;
+	line-height: 1.2em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background: #000;
+	display: inline-block;
+	margin: -35px 0 0;
+	padding: 10px 15px;
+	height: 70px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#mexico-main-sponsors .grid-layout {
+	margin: 20px 0 0;
+}
+
+/* switches main sponsors to mobile mode early to avoid overlap */
+@media only screen and (max-width: 920px), (max-device-width: 920px) {
+#mexico-main-sponsors .grid-col {  width: 100% !important;}
+}
+
+#mexico-main-sponsors .sponsor {
+margin: 0 auto;
+display: block;
+max-width: 280px;
+height: 180px;
+background-position: center center;
+background-repeat: no-repeat;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+opacity: 0.9;
+/*background: #e3fbef;*/
+}
+
+
+/* MAP AREA */
+#jsn-content-bottom-below {
+	position: relative;
+}
+div.jsn-modulecontainer.mexico-map {
+	position: relative;
+}
+div.jsn-modulecontainer.mexico-map:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(0,20,28,0.75);
+}
+
+/* SUBSCRIPTION FORM AREA */
+div.jsn-modulecontainer.mexico-contact-info {
+	position: absolute;
+	top: 360px;
+	width: 98%;
+	max-width: 98%;
+	background: transparent;
+	padding: 100px 0;
+	z-index: 100;
+	text-align: center;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-modulecontainer_inner {
+	width: 840px;
+	margin: 0 auto;
+	text-align: left;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master form {
+	width: 400px;
+	float: left;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master label {
+	display: none;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content {
+	text-align: right;
+	color: #fff;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content .jsn-row-container {
+	margin: 0;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-subscribe-form-desc {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content .control-group.email {
+	padding: 15px !important;
+	border: none !important;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content input.email {
+	border: none;
+	border-radius: 0;
+	padding: 15px;
+	height: 50px;
+	text-align: right;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content .control-group.ui-state-highlight {
+	background: none !important;
+	box-shadow: none;
+	padding: 0 15px;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .form-actions {
+	margin: 0;
+	padding: 0 15px;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .form-actions .btn-toolbar {
+	margin: 0;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .form-actions .btn-toolbar .jsn-form-submit {
+	background: #ffc000;
+	padding: 15px 25px;
+	border-radius: 0;
+	border: none;
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	text-shadow: none;
+	color: #000;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .form-actions + .jsn-text-center {
+	display: none;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc {
+	float: right;
+	width: 400px;
+	margin-left: 30px;
+	color: #fff;
+	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc h3 {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-size: 2.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	margin: 0 0 20px;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc .desc {
+	font-size: 1.1em;
+}
+div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc a:hover {
+	color: #fff;
+}
+/* USER6 AREA*/
+#jsn-content {
+	position: relative;
+	z-index: 86;
+}
+/*.jsn-fespa-page #jsn-content-bottom {
+	margin-top: -130px;
+}*/
+#mexico-about-intro {
+	position: relative;
+	z-index: 20;
+}
+.jsn-fespa-page #mexico-about-intro-bg {
+
+	margin-top: -30px;
+	padding-bottom: 0;
+}
+.jsn-fespa-page #mexico-about-intro-bg:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.jsn-fespa-page.jsn-color-cyan #mexico-about-intro-bg:before {
+	background: #006E42;
+}
+.jsn-fespa-page.jsn-color-blue #mexico-about-intro-bg:before {
+	background: rgba(7,128,179,0.92);
+}
+.jsn-fespa-page.jsn-color-red #mexico-about-intro-bg:before {
+	background: rgba(230,85,56,0.92);
+}
+.jsn-fespa-page.jsn-color-purple #mexico-about-intro-bg:before {
+	background: rgba(177,119,179,0.92);
+}
+.jsn-fespa-page.jsn-color-pink #mexico-about-intro-bg:before {
+	background: rgba(234,118,140,0.92);
+}
+.jsn-fespa-page.jsn-color-grey #mexico-about-intro-bg:before {
+	background: rgba(107,113,120,0.92);
+}
+#mexico-about-intro {
+	color: #fff;
+	text-align: center;
+	padding: 40px 0 0 0;
+}
+#mexico-about-intro h3.main-heading {
+	color: #fff;
+	font-size: 3em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0;
+	padding: 5px 0;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+#mexico-about-intro .desc {
+	width: 850px;
+	max-width: 100%;
+	font-size: 1.5em;
+	line-height: 1.8em;
+	margin: 30px auto 50px;
+}
+#mexico-about-intro .desc p {
+	margin: 0 0 20px;
+}
+#mexico-about-intro #guiding-icons {
+	display: inline-block;
+	margin: 50px auto;
+	max-width: 100%;
+}
+#mexico-about-intro #guiding-icons .icon {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin: 0 25px;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	float: none;
+}
+#mexico-about-intro #guiding-icons .icon > div {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+#mexico-about-intro #guiding-icons .icon a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #fff\9;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#mexico-about-intro #guiding-icons .lightning a {
+	background-image: url(../../../media/joomlashine/jsn-venture/custom-html/icons/iconround-lightning.png);
+}
+#mexico-about-intro #guiding-icons .responsive a {
+	background-image: url(../../../media/joomlashine/jsn-venture/custom-html/icons/iconround-mobile.png);
+}
+#mexico-about-intro #guiding-icons .maintainance a {
+	background-image: url(../../../media/joomlashine/jsn-venture/custom-html/icons/iconround-maintain.png);
+}
+#mexico-about-intro #guiding-icons .customize a {
+	background-image: url(../../../media/joomlashine/jsn-venture/custom-html/icons/iconround-customize.png);
+}
+#mexico-about-intro #guiding-icons .param a {
+	background-image: url(../../../media/joomlashine/jsn-venture/custom-html/icons/iconround-param.png);
+}
+#mexico-about-intro #guiding-icons .lightning a:after {
+	content: "Painless configuration";
+}
+#mexico-about-intro #guiding-icons .responsive a:after {
+	content: "Responsive design";
+}
+#mexico-about-intro #guiding-icons .maintainance a:after {
+	content: "Easy to start";
+}
+#mexico-about-intro #guiding-icons .customize a:after {
+	content: "Multiple colors";
+}
+#mexico-about-intro #guiding-icons .param a:after {
+	content: "Various modules";
+}
+#mexico-about-intro #guiding-icons .icon a:after {
+	pointer-events: none;
+	position: absolute;
+	height: 100%;
+	width: 100px;
+	color: #fff;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-weight: 200;
+	text-transform: uppercase;
+	top: 0;
+	left: 50%;
+	margin-left: -50px;
+	z-index: -1;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#mexico-about-intro #guiding-icons .icon:hover a:after {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	transform: translateY(140%);
+	-moz-transform: translateY(140%);
+	-webkit-transform: translateY(140%);
+}
+#mexico-about-intro #guiding-icons .icon a:before {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	content: '';
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 0 2px #fff;
+	-webkit-transition: -webkit-transform 0.2s;
+	-moz-transition: -moz-transform 0.2s;
+	transition: transform 0.2s;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#mexico-about-intro #guiding-icons .icon:hover a:before {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+#mexico-about-intro #guiding-icons .icon:hover a {
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: 0 0 0 12px rgba(255,255,255,0.4);
+	-moz-box-shadow: 0 0 0 12px rgba(255,255,255,0.4);
+	-webkit-box-shadow: 0 0 0 12px rgba(255,255,255,0.4);
+}
+
+/* FOOTER */
+#jsn-footer {
+	margin-top: 0;
+	border: none;
+}
+
+@media only screen and (max-width: 1500px) {
+.jsn-fespa-page .box_skitter .info_slide_dots {
+	top: auto !important;
+	bottom: 40px;
+	padding: 20px;
+	background: transparent !important;
+	opacity: 1;
+	z-index: 800;
+}
+}
+
+/* COM OHANAH */
+.jsn-com-ohanah div.jsn-modulecontainer.ohanah-alleventsmap h3.jsn-moduletitle {
+	padding: 10px 20px;
+	background: #82878c;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 200;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 100;
+}
+
+/* TABLET + SMARTPHONE DISPLAY */
+@media only screen and (max-width: 960px), (max-device-width: 960px) {
+	/* Optimizing font-weight on mobile devices */
+	#promo-intro .promo-intro-desc,
+	#mexico-promo-intro h2.promo-intro-heading,
+	#mexico-about-intro h3.main-heading,
+	#mexico-main-sponsors h3.main-heading,
+	div.event-categories #mexico-event-cat .cat h3,
+	div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-subscribe-form-desc,
+	div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc h3 {
+		font-weight: 300 !important;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.promo-intro {
+	  	top: 200px;
+	}
+	body.jsn-mobile #mexico-promo-intro h2.promo-intro-heading {
+	  	font-size: 2.5em;
+	  	margin: 10px 0;
+	}
+	body.jsn-mobile #mexico-promo-intro .desc {
+	  	margin: 0 0 20px;
+	  	font-size: 1.1em;
+	}
+}
+/* WIDE DESKTOP */
+@media only screen and (min-width: 961px) and (max-width: 1440px) {
+    body.jsn-mobile.jsn-responsive div.jsn-modulecontainer.promo-intro,
+    body.jsn-desktop:not(.jsn-responsive) div.jsn-modulecontainer.promo-intro {
+    	top: 150px;
+    }
+}
+
+/* TABLET DISPLAY */
+@media only screen and (min-width: 569px) and (max-width: 960px), (min-device-width: 569px) and (max-device-width: 960px) {
+	.jsn-fespa-page .box_skitter .info_slide_dots {
+		display: none;
+	}
+	.jsn-fespa-page  #jsn-menu {
+		/*background-color: #fff;*/
+	}
+	div.jsn-modulecontainer.mexico-contact-info {
+		width: 96%;
+		max-width: 96%;
+	}
+	body.jsn-mobile #promo-intro {
+		padding: 0 30px 120px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.event-categories {
+	    margin-top: -160px !important;
+	}
+	body.jsn-mobile #mexico-main-sponsors .grid-layout.grid-layout4 div.grid-col {
+		width: 24.96%;
+	}
+
+	body.jsn-mobile .jsn-fespa-page #jsn-content-bottom {
+		margin-top: -110px;
+	}
+	body.jsn-mobile #mexico-about-intro #guiding-icons {
+		min-width: 660px;
+	}
+}
+@media only screen and (min-width: 569px) and (max-width: 768px), (min-device-width: 569px) and (max-device-width: 768px) and (orientation:portrait) {
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-modulecontainer_inner {
+		width: 700px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master form {
+		width: 330px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc {
+		width: 330px;
+		margin-left: 30px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-subscribe-form-desc,
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc h3 {
+		font-size: 2em;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info {
+		top: 300px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.promo-intro {
+	  top: 170px;
+	}
+	body.jsn-mobile #mexico-promo-intro h2.promo-intro-heading {
+	    font-size: 2em;
+	}
+	body.jsn-mobile #promo-intro {
+		padding: 0 30px 90px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.event-categories {
+	    margin-top: -130px !important;
+	}
+
+}
+/* SMARTPHONE ONLY DISPLAY */
+@media only screen and (max-width: 568px), (max-device-width: 568px) {
+	body.jsn-mobile .jsn-fespa-page #jsn-header-bottom {
+		position: relative;
+		background-color: #000;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-map {
+		margin: 0;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info {
+		top: auto;
+		bottom: 30px;
+		padding: 70px 0;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-modulecontainer_inner {
+		width: auto;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master form,
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc {
+		float: none;
+		width: 300px;
+		max-width: 100%;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc {
+		margin-top: 40px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content {
+		text-align: left;
+		padding: 0 20px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .jsn-form-content input.email {
+		text-align: left;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .form-actions .btn-toolbar {
+		float: left !important;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .form-actions {
+		padding: 0 30px;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-subscribe-form-desc,
+	body.jsn-mobile div.jsn-modulecontainer.mexico-contact-info .jsn-uniform.jsn-master .mexico-contact-desc h3 {
+		font-size: 1.5em;
+	}
+	body.jsn-mobile #jsn-promo {
+      	background-image: none;
+	}
+	body.jsn-mobile #promo-intro {
+		padding: 0 10px 120px;
+	}
+	body.jsn-mobile #promo-intro h1.promo-intro-mainheading {
+		font-size: 1.25em;
+		margin-bottom: 10px;
+	}
+	body.jsn-mobile #promo-intro .promo-intro-desc {
+		font-size: 1.1em;
+		margin: 10px 0;
+	}
+	body.jsn-mobile div.jsn-modulecontainer.event-categories {
+	    margin-top: -165px !important;
+	}
+	body.jsn-mobile div.event-categories #mexico-event-cat .cat h3 {
+	    font-size: 2em;
+	    margin: 0;
+	}
+	body.jsn-mobile #mexico-main-sponsors {
+		margin-top: -35px;
+	}
+	body.jsn-mobile #mexico-main-sponsors h3.main-heading {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		height: 50px;
+	}
+
+	body.jsn-mobile #mexico-main-sponsors .grid-layout .div.grid-col_inner {
+		margin: 10px 0;
+	}
+	body.jsn-mobile #mexico-about-intro {
+		padding: 30px 0 50px;
+	}
+	body.jsn-mobile #mexico-about-intro h3.main-heading {
+		font-size: 2em;
+	}
+	body.jsn-mobile #mexico-about-intro #guiding-icons {
+		width: 260px;
+		margin: 0 auto;
+	}
+	body.jsn-mobile #mexico-about-intro #guiding-icons .icon {
+		margin: 25px;
+	}
+	body.jsn-mobile #mexico-about-intro .desc {
+		margin: 40px auto 20px;
+		font-size: 1.2em;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 568px), (min-device-width: 321px) and (max-device-width: 568px) {
+	body.jsn-mobile #mexico-about-intro #guiding-icons {
+		width: 390px;
+	}
+}
+.jsn-master .jsn-text-center {
+	display: none;
+}
+
+
+#jsn_form_3.jsn-master .jsn-bootstrap .jsn-form-content .control-group .control-label {
+	display: none !important;
+}
+
+.jsn-master .jsn-bootstrap .form-actions, .jsn-master.ui-dialog-contentpane .jsn-bootstrap .form-actions {
+	margin: 0 !important;
+}
+
+/* table style */
+#hor-zebra
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 30px;
+	width: 80%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#hor-zebra th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+}
+#hor-zebra td
+{
+	padding: 8px;
+}
+#hor-zebra .odd
+{
+	background: #e4f0eb; 
+}
+/* /table */
+
+
+/* front page welcome article */
+.mexico-article-intro .intro-content {
+  padding-left: 95px;
+  background-position: left 5px;
+}
+body.jsn-direction-rtl .mexico-article-intro .intro-content {
+  padding-left: 0;
+  padding-right: 85px;
+  background-position: right 5px;
+}
+.mexico-article-intro .intro-content h3 {
+  font-size: 1.6em;
+  letter-spacing: 2px;
+}
+.mexico-article-intro .intro-content.guillermo-barba {
+  background: url(../../../images/fespa/speakers/guillermo-barba.jpg) no-repeat;
+  background-size: 80px 106px;
+}
+.mexico-article-intro .intro-content.cesar-parra {
+  background: url(../../../images/fespa/speakers/cesar-parra.jpg) no-repeat;
+  background-size: 80px 106px;
+}
+.mexico-article-intro .intro-content.cristian-mecalco {
+  background: url(../../../images/fespa/speakers/cristian-mecalco.jpg) no-repeat;
+  background-size: 80px 106px;
+}
+.mexico-article-intro .intro-content.pedro-garcia-de-la-garza {
+  background: url(../../../images/fespa/speakers/pedro-garcia-de-la-garza.jpg) no-repeat;
+  background-size: 80px 106px;
+}
+
+.mexico-article-intro .intro-content.rock-lamanna {
+  background: url(../../../images/fespa/speakers/rock-lamanna.jpg) no-repeat;
+  background-size: 80px 106px;
+}
+
+.mexico-article-intro .intro-content.ricard-casals {
+  background: url(../../../images/fespa/speakers/ricard-casals.jpg) no-repeat;
+  background-size: 80px 106px;
+}
+
+#jsn-desktopswitch, #jsn-mobileswitch { display: none !important;}
+
+.float-left { float: left; margin: 0 10px 4px 0; }
+.float-right { float: right; margin: 0 0 4px 10px; }
+
+/* reduce size of images in category */
+.blog img.float-left, .blog img.float-right { width: 120px; height: auto;  }
+
+.speaker-list { margin-left: 200px;}
+.blog .speaker-list { margin-left: 130px;}
+
+.rsform-block.rsform-block-unitcost, .rsform-block.rsform-block-finalprice { display: none !important;  }
+
